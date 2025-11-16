@@ -69,8 +69,6 @@ def player2_turn(player2, board):
 # Logic and fuctions order
 board = [' ']*10
 
-display(board)
-
 (player1,player2) = marker()
 
 # the game actual while loop ###############################################################3
