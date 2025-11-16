@@ -34,7 +34,7 @@ def check_status(marker, board):
        board[3] == board[5] == board[7] == marker:
         print(f'{marker} you won the game congrats')
         return True
-        #return True if some one won we can stop the game##################################################################
+        #return True, if some one won we can stop the game##################################################################
     
     return False
 
@@ -65,7 +65,6 @@ def player2_turn(player2, board):
     return check_status(player2, board)
 
 
-# function to ask for replay or not
 
 # Logic and fuctions order
 board = [' ']*10
