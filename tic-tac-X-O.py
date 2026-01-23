@@ -72,6 +72,7 @@ board = [' ']*10
 (player1,player2) = marker()
 
 # the game actual while loop ###############################################################3
+# while loop appear to be important than for loop
 while True:
     
     # Player1 turn
